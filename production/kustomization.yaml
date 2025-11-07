@@ -1,0 +1,8 @@
+resources:
+- ../base
+namePrefix: prod-
+patches:
+- path: patch_a.yaml
+  target:
+    kind: Service
+    name: mydep1
