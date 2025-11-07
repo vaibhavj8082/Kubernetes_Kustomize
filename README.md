@@ -5,10 +5,6 @@ This Project demonstrates how to use Kustomize to manage multiple Kubernetes Env
 
 With this setup you can maintain a single source of truth for your Kubernetes resources while applying environment-specific customizations such as unique nodePort values for each environment.
 
-## Project Structure   
-
-![Uploading Screenshot 2025-11-07 120047.png…]()
-
 ## How It Works
 Kustomize allows you to deine a **base configuration** once and create multiple **overlays** that modify only what's needed.  
 In this project:  
